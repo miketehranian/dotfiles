@@ -106,7 +106,7 @@ endif
 " Don't copy the contents of an overwritten selection.
 vnoremap p "_dP
 
-----------------
+" ----------------
 set nocursorline " don't highlight current line
 
 " keyboard shortcuts
@@ -115,3 +115,7 @@ inoremap jj <ESC>
 " highlight search
 "set hlsearch
 "nmap <leader>hl :let @/ = ""<CR>
+
+" Use syntax enabled instead
+" syntax on
+color dracula
