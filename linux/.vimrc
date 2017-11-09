@@ -119,3 +119,6 @@ inoremap jj <ESC>
 " Use syntax enabled instead
 " syntax on
 color dracula
+
+let @o = 'oimport ipdb; ipdb.set_trace()'
+
