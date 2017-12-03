@@ -122,3 +122,4 @@ color dracula
 
 let @o = 'oimport ipdb; ipdb.set_trace()'
 
+set nonu
