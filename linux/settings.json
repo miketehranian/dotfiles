@@ -1,6 +1,5 @@
 {
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "files.autoSave": "off",
     "vim.insertModeKeyBindings": [
         {
             "before": ["j", "j"],
@@ -25,7 +24,6 @@
         "*.ipynb": "jupyter-notebook"
     },
     "go.toolsManagement.autoUpdate": true,
-    "workbench.colorTheme": "Dracula",
     // "editor.fontFamily": "'Victor Mono', Consolas, 'Courier New', monospace",
     // "editor.fontFamily": "'Fira Code iScript', 'Fira Code', Consolas, 'Courier New', monospace",
     // "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
@@ -55,14 +53,23 @@
             }
         ]
     },
-    "editor.tabSize": 8,
+    "editor.tabSize": 4,
     "editor.cursorStyle": "line",
-    "editor.insertSpaces": false,
+    "editor.insertSpaces": true,
     "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
     "editor.wordWrap": "off",
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left"
     },
-    "window.zoomLevel": -1
+    "files.trimTrailingWhitespace": true,
+    "workbench.colorTheme": "Dracula Soft",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "window.zoomLevel": -2,
+    "update.mode": "manual",
+    "vim.handleKeys": {
+        "<C-p>": false
+    }
 }
